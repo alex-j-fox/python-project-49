@@ -2,18 +2,10 @@ from random import randint, choice
 from operator import add, mul, sub
 
 
-def get_random_number():
-    return randint(0, 100)
-
-
-def get_random_operator():
-    return choice('+-*')
-
-
 def get_question_and_answer():
-    number_1 = get_random_number()
-    number_2 = get_random_number()
-    operator = get_random_operator()
+    number_1 = randint(0, 100)
+    number_2 = randint(0, 100)
+    operator = choice('+-*')
     expression = f'{number_1} {operator} {number_2}'
     question = expression
     answer = None

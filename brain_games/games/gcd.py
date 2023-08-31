@@ -1,13 +1,9 @@
 from random import randint
 
 
-def get_random_number():
-    return randint(0, 100)
-
-
 def get_question_and_answer():
-    a = get_random_number()
-    b = get_random_number()
+    a = randint(0, 100)
+    b = randint(0, 100)
     question = f'{a}, {b}.'
     while a != b:
         if a == 0 or b == 0:
