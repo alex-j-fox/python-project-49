@@ -6,14 +6,13 @@ def get_question_and_answer():
     b = randint(0, 100)
     question = f'{a}, {b}.'
     while a != b:
-        if a == 0 or b == 0:
-            break
+        if min(a, b) == 0:
+            return question, max(a, b)
         elif a > b:
             a = a % b
         elif b > a:
             b = b % a
-    answer = max(a, b)
-    return question, answer
+    return question, max(a, b)
 
 
 def show_question():
