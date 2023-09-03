@@ -21,47 +21,59 @@
 
 ### Installation from GitHub
 
-> pip install --user --upgrade pip
-> pip install git+https://github.com/alex-j-fox/python-project-49
+```
+pip install --user --upgrade pip
+pip install git+https://github.com/alex-j-fox/python-project-49
+```
 
 ### Manual installation
 
 1. Clone the repository
 
-`git clone https://github.com/alex-j-fox/python-project-49`
+```
+git clone https://github.com/alex-j-fox/python-project-49
+```
 
 2. Navigate to the project directory 
 
-`cd /home/<user>/python-project-49`
+```
+cd /home/<user>/python-project-49
+```
 
 3. To build and install the package, run the following commands 
 
-> make build
-> make publish
-> make package install
+```
+make build
+make publish
+make package install
+```
 
-<script async id="asciicast-606049" src="https://asciinema.org/a/606049.js"></script>
+[![asciicast](https://asciinema.org/a/606049.svg)](https://asciinema.org/a/606049)
 
-4. Now you can run games with the following commands
+## Run games
 
-> brain-even
-> brain-calc
-> brain-gcd
-> brain-progression
-> brain-prime
+```
+brain-even
+```
+[![asciicast](https://asciinema.org/a/606051.svg)](https://asciinema.org/a/606051)
 
-#### brain-even
-<script async id="asciicast-606051" src="https://asciinema.org/a/606051.js"></script>
+```
+brain-calc
+```
+[![asciicast](https://asciinema.org/a/606050.svg)](https://asciinema.org/a/606050)
 
-#### brain-calc
-<script async id="asciicast-606050" src="https://asciinema.org/a/606050.js"></script>
+```
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/605298.svg)](https://asciinema.org/a/605298)
 
-#### brain-gcd
-<script async id="asciicast-605298" src="https://asciinema.org/a/605298.js"></script>
+```
+brain-progression
+```
+[![asciicast](https://asciinema.org/a/605607.svg)](https://asciinema.org/a/605607)
 
-#### brain-progression
-<script async id="asciicast-605607" src="https://asciinema.org/a/605607.js"></script>
-
-#### brain-prime
-<script async id="asciicast-605697" src="https://asciinema.org/a/605697.js"></script>
+```
+brain-prime
+```
+[![asciicast](https://asciinema.org/a/605697.svg)](https://asciinema.org/a/605697)
 
