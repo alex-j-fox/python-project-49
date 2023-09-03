@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain Games is a set of five console games built on the principle of popular mobile applications for brain pumping."
 authors = ["alex-j-fox <alex-j-fox@yandex.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
+repository = "https://github.com/alex-j-fox/python-project-49"
 
 [tool.poetry.dependencies]
 python = "^3.10"
