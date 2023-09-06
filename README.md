@@ -16,6 +16,7 @@
 
 - Python version 3.10
 - Git version 2.25
+- Poetry version 1.5
 
 ## Installation
 

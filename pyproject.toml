@@ -6,6 +6,14 @@ authors = ["alex-j-fox <alex-j-fox@yandex.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/alex-j-fox/python-project-49"
+classifiers = [
+    "Environment :: Console",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.10",
+    "Intended Audience :: Education",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Games/Entertainment"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
