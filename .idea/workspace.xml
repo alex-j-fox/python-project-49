@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb776917-b0c8-470e-a023-b830b94d078f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/brain_games/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/games/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/games/even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/even.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/games/gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/gcd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/games/prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/prime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/games/progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/progression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-    </list>
+    <list default="true" id="eb776917-b0c8-470e-a023-b830b94d078f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,6 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693934706758</updated>
       <workItem from="1693934708524" duration="19954000" />
+      <workItem from="1693979906774" duration="1044000" />
     </task>
     <servers />
   </component>
@@ -152,6 +145,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_project_49$brain_games.coverage" NAME="brain_games Coverage Results" MODIFIED="1693936458062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/brain_games/scripts" />
