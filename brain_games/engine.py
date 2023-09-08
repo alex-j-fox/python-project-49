@@ -9,11 +9,11 @@ def greet_user():
 
 
 def get_user_answer():
-    user_answer = prompt.string('Your answer: ').lower()
+    user_answer = prompt.string('Your answer: ')
     return user_answer
 
 
-def check_user_answer(user_answer, solution, user_name):
+def check_and_confirm_user_answer(user_answer, solution, user_name):
     if user_answer == str(solution):
         print('Correct!')
     else:
@@ -30,7 +30,7 @@ def run_game(game_module):
     while count < 3:
         question, answer = game_module.get_question_and_answer()
         print(f'Question: {question}')
-        if check_user_answer(get_user_answer(), answer, name):
+        if check_and_confirm_user_answer(get_user_answer(), answer, name):
             break
         count += 1
     else:
